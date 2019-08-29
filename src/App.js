@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/main.scss';
 import NavLogoCenter from './Components/NavLogoCenter/NavLogoCenter';
 
 function App() {
