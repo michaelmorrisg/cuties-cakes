@@ -2,10 +2,19 @@ import React, { Component } from 'react';
 
 class NavLogoCenter extends Component {
 
-    render() {
+    render(props) {
         return (
             <div className="nav-main">
-                Hey there
+                <div className="nav-left">
+                    {this.props.leftNavItems.map(navItem => {
+                        return <div>{navItem.text}</div>
+                    })}
+                </div>
+                <div className="nav-right">
+                    {this.props.rightNavItems.map(navItem => {
+                        return <div>{navItem.text}</div>
+                    })}
+                </div>
             </div>
         )
     }
