@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavItem from '../../Components/NavItem/NavItem';
 
 class NavLogoCenter extends Component {
 
@@ -7,7 +8,7 @@ class NavLogoCenter extends Component {
             <div className="nav-main">
                 <div className="nav-left">
                     {this.props.leftNavItems.map(navItem => {
-                        return <div>{navItem.text}</div>
+                        return <NavItem text={navItem.text} dropDownOptions={navItem.dropDownOptions}/>
                     })}
                 </div>
                 <div className="nav-right">
