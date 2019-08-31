@@ -13,6 +13,9 @@
     height: 100%;
     width: 100%;
 }
+.nav-item:hover {
+    color: $link-color;
+}
 .dropdown-main {
     position: absolute;
     top: -50px;
