@@ -14,8 +14,10 @@ class NavItem extends Component {
 
     render(props) {
         return (
-            <div className="nav-item">
-                <div>{this.props.text}</div>
+            <div className="nav-item-wrapper">
+                <div className="nav-item">
+                    <div>{this.props.text}</div>
+                </div>
                 <div className="dropdown-main">
                     <ul>
                         {this.renderDropdownOptions()}
