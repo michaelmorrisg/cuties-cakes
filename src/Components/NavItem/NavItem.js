@@ -5,8 +5,8 @@ class NavItem extends Component {
     renderDropdownOptions(props) {
         let item; 
         if(this.props.dropDownOptions) {
-            item = this.props.dropDownOptions.map(option => {
-                return <li>{option.text}</li>
+            item = this.props.dropDownOptions.map((option, index) => {
+                return <li key={index}>{option.text}</li>
             });
         }
         return item;

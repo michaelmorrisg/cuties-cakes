@@ -1,19 +1,24 @@
 .nav-item-wrapper {
     position: relative;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .nav-item {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    z-index: 10;
+    background-color: $main;
+    height: 100%;
+    width: 100%;
 }
 .dropdown-main {
     position: absolute;
-    top: -50;
-    background-color: darken($main, 10%);
+    top: -50px;
+    background-color: darken($main, 3%);
     transition: top .3s;
+    width: 100%;
 }
 
 .nav-item-wrapper:hover {
