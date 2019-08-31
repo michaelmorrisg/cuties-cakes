@@ -18,10 +18,11 @@
 }
 .dropdown-main {
     position: absolute;
-    top: -50px;
+    top: -200px;
     background-color: darken($main, 3%);
     transition: top .3s;
     width: 100%;
+    box-shadow: 1px 1px 10px grey;
 }
 
 .nav-item-wrapper:hover {
