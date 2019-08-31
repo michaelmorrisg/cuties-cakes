@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <NavLogoCenter
         leftNavItems={[{text: 'waffles', dropDownOptions: [{text: 'more stuff'}, {text: 'some options'}, {text: 'this is fun'}]}, {text: 'burritos'}, {text: 'pancakes'}]}
-        rightNavItems={[{text: 'buffalo sauce'}, {text: 'tacos', dropDownOptions: [{text: 'more stuff'}, {text: 'some options'}, {text: 'this is fun'}]}, {text: 'something'}]}
+        rightNavItems={[{text: 'About'}, {text: 'Classes', dropDownOptions: [{text: 'Class Info'}, {text: 'Something Else'}]}, {text: 'Location'}]}
       />
     </div>
   );
