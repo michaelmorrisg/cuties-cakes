@@ -2,6 +2,16 @@ import React, { Component } from 'react';
 
 class NavItem extends Component {
 
+    renderDropdownOptions(props) {
+        let item; 
+        if(this.props.dropDownOptions) {
+            item = this.props.dropDownOptions.map(option => {
+                return <div>{option.text}</div>
+            });
+        }
+        return item;
+    }
+
     render(props) {
         return (
             <div className="nav-item">
@@ -10,6 +20,7 @@ class NavItem extends Component {
                     {/* {this.props.dropDownOptions.map(option => {
                         return <div>{option.text}</div>
                     })} */}
+                    {this.renderDropdownOptions()}
                 </div>
             </div>
         )

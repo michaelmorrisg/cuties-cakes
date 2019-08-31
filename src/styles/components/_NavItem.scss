@@ -1,0 +1,9 @@
+.dropdown-main {
+    display: none;
+}
+
+.nav-item:hover {
+    .dropdown-main {
+        display: block;
+    }
+}
