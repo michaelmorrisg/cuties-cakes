@@ -11,6 +11,9 @@ class NavLogoCenter extends Component {
                         return <NavItem key={i} text={navItem.text} dropDownOptions={navItem.dropDownOptions}/>
                     })}
                 </div>
+                <div className="nav-center">
+                    
+                </div>
                 <div className="nav-right">
                     {this.props.rightNavItems.map((navItem, i) => {
                         return <NavItem key={i} text={navItem.text} dropDownOptions={navItem.dropDownOptions}/>
