@@ -13,7 +13,7 @@ class NavLogoCenter extends Component {
                 </div>
                 <div className="nav-right">
                     {this.props.rightNavItems.map(navItem => {
-                        return <div>{navItem.text}</div>
+                        return <NavItem text={navItem.text} dropDownOptions={navItem.dropDownOptions}/>
                     })}
                 </div>
             </div>

@@ -6,7 +6,7 @@ class NavItem extends Component {
         let item; 
         if(this.props.dropDownOptions) {
             item = this.props.dropDownOptions.map(option => {
-                return <div>{option.text}</div>
+                return <li>{option.text}</li>
             });
         }
         return item;
@@ -17,10 +17,9 @@ class NavItem extends Component {
             <div className="nav-item">
                 <div>{this.props.text}</div>
                 <div className="dropdown-main">
-                    {/* {this.props.dropDownOptions.map(option => {
-                        return <div>{option.text}</div>
-                    })} */}
-                    {this.renderDropdownOptions()}
+                    <ul>
+                        {this.renderDropdownOptions()}
+                    </ul>
                 </div>
             </div>
         )

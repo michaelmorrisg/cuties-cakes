@@ -2,6 +2,8 @@
     background-color: $main;
     display: flex;
     justify-content: space-between;
+    height: 50px;
+    z-index: 100;
 
     .nav-left {
         width: 45%;
