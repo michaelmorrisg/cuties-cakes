@@ -23,6 +23,11 @@
     transition: top .3s;
     width: 100%;
     box-shadow: 1px 1px 10px grey;
+
+    li:hover {
+        color: $link-color;
+        cursor: pointer;
+    }
 }
 
 .nav-item-wrapper:hover {
