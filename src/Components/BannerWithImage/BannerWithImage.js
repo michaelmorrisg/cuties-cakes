@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import TitleDescriptionAction from '../TitleDescriptionAction/TitleDescriptionAction';
 
 class BannerWithImage extends Component {
 
@@ -12,6 +13,7 @@ class BannerWithImage extends Component {
                     backgroundPosition: this.props.backgroundPosition ? this.props.backgroundPosition : "",
                     }}
             >
+            <TitleDescriptionAction />
             </div>
         )
     }
