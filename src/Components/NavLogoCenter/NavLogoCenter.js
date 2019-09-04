@@ -29,7 +29,7 @@ class NavLogoCenter extends Component {
                     {this.renderLeftNav()}
                 </div>
                 <div className="nav-center">
-                    
+                    <img alt="" src={this.props.logo} />
                 </div>
                 <div className="nav-right">
                     {this.renderRightNav()}
