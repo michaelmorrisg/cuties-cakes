@@ -13,7 +13,12 @@ class BannerWithImage extends Component {
                     backgroundPosition: this.props.backgroundPosition ? this.props.backgroundPosition : "",
                     }}
             >
-            <TitleDescriptionAction />
+            <TitleDescriptionAction 
+                textTitle={this.props.textTitle}
+                textDescription={this.props.textDescription}
+                titleSize={this.props.titleSize}
+                descriptionSize={this.props.descriptionSize}
+            />
             </div>
         )
     }

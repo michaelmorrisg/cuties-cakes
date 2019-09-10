@@ -6,9 +6,9 @@ class TitleDescriptionAction extends Component {
     render() {
         return (
             <div className="title-description-action-main">
-                <h1>Cutie's Cakes</h1>
+                <h1 style={{fontSize:this.props.titleSize}}>{this.props.textTitle}</h1>
                 <br/>
-                <h4>Some random description about how great cakes can be.</h4>
+                <h4 style={{fontSize:this.props.descriptionSize}}>{this.props.textDescription}</h4>
                 <br/>
                 <ButtonBuilder 
                     buttonText="Learn More"

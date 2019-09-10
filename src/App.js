@@ -19,6 +19,10 @@ function App() {
         bannerImage={bannerImage}
         backgroundSize="cover"
         backgroundPosition="center"
+        textTitle="Cutie's Cakes"
+        textDescription="Making the best cakes this side of the Mississippi"
+        titleSize="60px"
+        descriptionSize="30px"
       />
     </div>
   );
