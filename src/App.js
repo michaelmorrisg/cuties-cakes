@@ -14,14 +14,16 @@ function App() {
         rightNavItems={[{text: 'About'}, {text: 'Classes', dropDownOptions: [{text: 'Class Info'}, {text: 'Something Else'}]}, {text: 'Location'}]}
         logo={logo}
       />
-      {/* Pass in bannerImage, backgroundSize, backgroundPosition */}
+      {/* Pass in bannerImage, backgroundSize, backgroundPosition, textTitle, textDescription
+        titleSize, descriptionSize, buttonColor (optional)
+      */}
       <BannerWithImage 
         bannerImage={bannerImage}
         backgroundSize="cover"
         backgroundPosition="center"
         textTitle="Cutie's Cakes"
         textDescription="Making the best cakes this side of the Mississippi"
-        titleSize="60px"
+        titleSize="100px"
         descriptionSize="30px"
       />
     </div>

@@ -18,6 +18,7 @@ class BannerWithImage extends Component {
                 textDescription={this.props.textDescription}
                 titleSize={this.props.titleSize}
                 descriptionSize={this.props.descriptionSize}
+                buttonColor={this.props.buttonColor}
             />
             </div>
         )
